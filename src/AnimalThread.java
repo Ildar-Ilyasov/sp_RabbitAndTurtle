@@ -8,8 +8,7 @@ public class AnimalThread extends Thread{
         i = 0;
         setPriority(Priorety);
     }
-    @Override
-    public void run(){
+    @Override public void run(){
         while (true){
             System.out.println(StreamName + " " + incrementCount());
         }
@@ -19,5 +18,4 @@ public class AnimalThread extends Thread{
             return i++;
         }
     }
-
 }

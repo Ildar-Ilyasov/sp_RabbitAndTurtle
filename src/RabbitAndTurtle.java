@@ -5,5 +5,4 @@ public class RabbitAndTurtle extends Thread {
         rabbit.start();
         turtle.start();
     }
-
 }
